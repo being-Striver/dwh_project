@@ -27,7 +27,7 @@ BEGIN
 
         BULK INSERT BRONZE.CRM_CUST_INFO 
         FROM 
-        "C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\cust_info.csv"
+        'C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\cust_info.csv'
 
         WITH 
         (
@@ -43,7 +43,7 @@ BEGIN
 
         BULK INSERT BRONZE.CRM_PRD_INFO 
         FROM 
-        "C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\prd_info.csv"
+        'C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\prd_info.csv'
 
         WITH 
         (
@@ -59,7 +59,7 @@ BEGIN
 
         BULK INSERT BRONZE.CRM_SALES_DETAILS 
         FROM 
-        "C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\sales_details.csv"
+        'C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\sales_details.csv'
 
         WITH 
         (
@@ -134,7 +134,7 @@ BEGIN
 
 END;
 
-EXEC sp_load_bronze;
+EXEC sp_bronze_load;
 
 
 

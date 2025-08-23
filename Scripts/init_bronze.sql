@@ -14,9 +14,9 @@ CREATE TABLE BRONZE.CRM_CUST_INFO
 cst_id INT,
 cst_key NVARCHAR(50),
 cst_firstname NVARCHAR(50),
-cst_lastname NAVRCHAR(50),
-cst_marital_status NAVRCHAR(50),
-cst_gndr NAVRCHAR(50),
+cst_lastname NVARCHAR(50),
+cst_marital_status NVARCHAR(50),
+cst_gndr NVARCHAR(50),
 cst_create_date DATE
 );
 
@@ -42,9 +42,9 @@ CREATE TABLE BRONZE.CRM_SALES_DETAILS
 sls_ord_num NVARCHAR(50),
 sls_prd_key NVARCHAR(50),
 sls_cust_id INT,
-sls_order_dt DATE,
-sls_ship_dt DATE,
-sls_due_dt DATE,
+sls_order_dt INT,
+sls_ship_dt INT,
+sls_due_dt INT,
 sls_sales INT,
 sls_quantity INT,
 sls_price INT

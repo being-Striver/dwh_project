@@ -9,7 +9,7 @@ TRUNCATE TABLE BRONZE.CRM_CUST_INFO;
 
 BULK INSERT BRONZE.CRM_CUST_INFO 
 FROM 
-"C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\cust_info.csv"
+'C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\cust_info.csv'
 
 WITH 
 (
@@ -23,7 +23,7 @@ TRUNCATE TABLE BRONZE.CRM_PRD_INFO;
 
 BULK INSERT BRONZE.CRM_PRD_INFO 
 FROM 
-"C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\prd_info.csv"
+'C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\prd_info.csv'
 
 WITH 
 (
@@ -37,7 +37,7 @@ TRUNCATE TABLE BRONZE.CRM_SALES_DETAILS;
 
 BULK INSERT BRONZE.CRM_SALES_DETAILS 
 FROM 
-"C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\sales_details.csv"
+'C:\Users\shudh\OneDrive\Desktop\dwh_project\datasets\source_crm\sales_details.csv'
 
 WITH 
 (
@@ -81,6 +81,25 @@ FIRSTROW = 2,
 FIELDTERMINATOR = ',',
 TABLOCK
 );
+
+select * from bronze.CRM_CUST_INFO;
+select * from bronze.CRM_PRD_INFO;
+select * from  bronze.CRM_SALES_DETAILS;
+
+--count
+select count(*) from bronze.CRM_CUST_INFO;
+select count(*) from bronze.CRM_PRD_INFO;
+select count(*) from  bronze.CRM_SALES_DETAILS;
+
+
+select * from bronze.ERP_CUST_AZ12;
+select * from bronze.ERP_LOC_A101;
+select * from bronze.ERP_PX_CAT_G1V2;
+
+--count
+select count(*) from bronze.ERP_CUST_AZ12;
+select count(*) from bronze.ERP_LOC_A101;
+select count(*) from bronze.ERP_PX_CAT_G1V2;
 
 
 
