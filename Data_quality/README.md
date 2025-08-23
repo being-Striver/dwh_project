@@ -105,4 +105,21 @@ data requirements - data consistency
 
 # Exercise 5
 -------------------------------------------------------------------------------------------------
+data requirements - data integrity
+validate the integrity of data source-target mapping between DM and stg tables
+- stg_order
+- stg_customers
+- dm_customerRegionalSales
+
+# Exercise 6
+-------------------------------------------------------------------------------------------------
+Data requiremnets - data profiling
+- include the following metadata validations
+  - count records
+  - datatype checks
+  - length checks
+  - precision checks
+  - nullable checks
+
+
 
