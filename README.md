@@ -19,18 +19,18 @@
  DWH is there to address those analytical data needs.
  
  Simple definiton of DWH: a database which is used and optimized for reporting and data analysis.
-     -should be user friendly
-		 -fast query performance
-		 -enabling data analysis
+     - should be user friendly
+		 - fast query performance
+		 - enabling data analysis
 		 
 		 
 		 
---Goals of a data warehouse:
-  --centralised and consistent location for data
-  --data must be accessible fast(query performance)
-  --user-friendly(easy to understand)
-  --must load data consistently and repeatedly(ETL)
-  --reporting and data visualization built on top
+- Goals of a data warehouse:
+  - centralised and consistent location for data
+  - data must be accessible fast(query performance)
+  - user-friendly(easy to understand)
+  - must load data consistently and repeatedly(ETL)
+  - reporting and data visualization built on top
   
   
 ##We create a data warehouse for business intelligence.
