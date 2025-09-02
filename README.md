@@ -1,4 +1,4 @@
-# Mastering data warehouse,Dimensional modelling and ETL process:
+# Mastering data warehouse, Dimensional modelling and ETL process:
 ---------------------------------------------------------------------------
 
 - Why do we need data warehouse?
